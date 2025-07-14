@@ -2,13 +2,14 @@
   "name": "test",
   "private": true,
   "version": "0.0.0",
-  "module": "https://samanseedr2.github.io/testrepo/",
+  "module": "https://samanseedr2.github.io/reacttesttwo/",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
